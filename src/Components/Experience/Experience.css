@@ -1,0 +1,33 @@
+.exp-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+.exp-container1{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    width: 50%;
+}
+.exp-container2{
+    width: 75%;
+    padding-top: 7%;
+}
+.exp-card{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.exp-sub-card1{
+    width: 25%;
+}
+
+.exp-sub-card2{
+    width: 500px;   
+}
+
+
+.exp-head1{
+    font-size: 60px;
+    color: #31393C;
+}

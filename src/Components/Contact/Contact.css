@@ -1,0 +1,40 @@
+.contact-container{
+    background-color: rgb(18, 13, 13);
+    height: 100vh;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container img {
+    height: 650px;
+    width: 470px;
+    border-radius: 15px;
+}
+
+.contact-card{
+    color: white;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-card h1{
+    font-size: 40px;
+}
+.contact-card h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.contact-card h3{
+    padding-bottom: 15px;
+}
+
+.wow{
+    display: flex;
+    gap: 30px;
+}
+
