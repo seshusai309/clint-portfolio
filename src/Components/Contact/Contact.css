@@ -16,7 +16,6 @@
 
 .contact-card{
     color: white;
-    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -39,3 +38,35 @@
     gap: 30px;
 }
 
+
+@media (max-width: 768px){
+    .contact-container img {
+        height: 430px;
+        width: 320px;
+        border-radius: 15px;
+    }
+    .contact-container{
+        background-color: rgb(18, 13, 13);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-card h1{
+        font-size: 20px;
+    }
+    .contact-card h2{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    
+    .contact-card h3{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    
+    .wow{
+        display: flex;
+        gap: 20px;
+    }
+    
+}

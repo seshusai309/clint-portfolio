@@ -32,3 +32,26 @@
     font-size: 60px;
     color: #31393C;
 }
+
+@media (max-width: 768px){
+    .exp-head1{
+        font-size: 35px;
+    }
+    .exp-container{
+        flex-direction: column;
+        justify-content: start;
+        gap: 10%;
+    }
+    .exp-sub-card1{
+        width: auto;
+    }
+    .exp-card{
+        font-size: 12px;   
+        margin-bottom: 0;
+    }
+    
+    .exp-container2{
+        width: auto;
+        padding-top: 0%;
+    }
+}

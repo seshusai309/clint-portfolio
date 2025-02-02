@@ -15,7 +15,7 @@ class Home extends Component{
             <div className="header">
               <div>
               <p className="para2">I am</p>
-            <h1 className="name-head">Nandu Gopal Reddy</h1>
+            <h1 className="name-head">Nanda Gopal Reddy</h1>
                 <TypeAnimation 
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
@@ -26,7 +26,10 @@ class Home extends Component{
                   ]}
                   wrapper="span"
                   speed={50}
-                  style={{ fontSize: '40px', display: 'inline-block' }}
+                  style={{ 
+                
+                    
+                    fontSize: '30px', display: 'inline-block' }}
                   repeat={Infinity}
                 />
               </div>

@@ -7,7 +7,7 @@ class Contact extends Component{
         return (
             <div id="contact" className="min">
                 <div className="contact-container">
-                <img src={lastImg} />
+                <img className="nani-last" src={lastImg} />
                 <div className="contact-card">
                     <div>
                         <h1>Reach Out</h1>

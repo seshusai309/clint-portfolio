@@ -52,3 +52,9 @@
     outline: none;
     color: #000;
   }
+
+  /* Navbar.css */
+.navbar-collapse {
+  overflow: hidden; /* Prevent content from overflowing during transition */
+  transition: height 0.3s ease; /* Smooth transition for height */
+}
