@@ -1,6 +1,7 @@
 .skill-container{
     height: 100vh;
     background-color: #b4b0ac;
+    overflow-y: hidden;
 }
 
 .icons{

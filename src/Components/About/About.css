@@ -5,6 +5,7 @@
     height: 100vh;
     gap: 50px;
     background-color: #b4b0ac;
+    overflow-y: hidden;
 }
 
 .nani2-img{
