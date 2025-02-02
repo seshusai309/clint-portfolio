@@ -40,7 +40,7 @@
     .exp-container{
         flex-direction: column;
         justify-content: start;
-        gap: 10%;
+        gap: 2%;
     }
     .exp-sub-card1{
         width: auto;
@@ -48,6 +48,10 @@
     .exp-card{
         font-size: 12px;   
         margin-bottom: 0;
+    }
+    .exp-container1{
+        padding-top: 0;
+        width: 50%;
     }
     
     .exp-container2{
